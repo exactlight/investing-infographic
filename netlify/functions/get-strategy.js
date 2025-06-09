@@ -57,15 +57,3 @@ exports.handler = async function(event) {
     };
   }
 };
-
-Part 3: Create the Netlify Configuration File
-This simple file tells Netlify where to find your function.
-
-Inside your main investing-infographic/ folder, create a new file named netlify.toml.
-
-Copy and paste the following line into that new netlify.toml file:
-
-# File: netlify.toml
-
-[build]
-  functions = "netlify/functions/"
